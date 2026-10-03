@@ -1,0 +1,115 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NOMORA — Ideas without boundaries.</title>
+<meta name="description" content="NOMORA is a student-led creative studio working across film, digital, design, commerce, strategy and events.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=DM+Mono:wght@400&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head>
+<body>
+<a class="skip" href="#work">Skip to work</a>
+<header class="nav"><a href="#top" class="logo">NOMORA</a>
+<button class="menu-btn" aria-expanded="false" aria-controls="links">Menu</button>
+<nav id="links" aria-label="Primary"><a href="#work">Work</a><a href="#capabilities">Capabilities</a><a href="#studio">Studio</a><a href="#contact">Contact</a></nav></header>
+
+<main id="top">
+<!-- 01 HERO — montage of five local clips (assets/video/<name>.mp4). Order = DOM order. -->
+<section class="hero dark" id="hero">
+ <div class="hero-montage" aria-hidden="true">
+  <div class="frame hero-media active" data-video="cafe-barista" data-pos="50% 40%"></div>
+  <div class="frame hero-media" data-video="cafe-espresso" data-pos="50% 48%"></div>
+  <div class="frame hero-media" data-video="fitness" data-pos="62% 50%"></div>
+  <div class="frame hero-media" data-video="festival" data-pos="50% 50%"></div>
+  <div class="frame hero-media" data-video="cafe-detail" data-pos="50% 50%"></div>
+ </div>
+ <div class="hero-in">
+  <h1 class="wordmark" aria-label="NOMORA">NOMORA</h1>
+  <div class="hero-foot"><p class="tag">Ideas without boundaries.</p><p class="mono">Film. Digital. Design. Commerce. Strategy. Events.</p></div>
+ </div>
+</section>
+
+<!-- 02 MANIFESTO -->
+<section class="light manifesto" id="manifesto">
+ <p class="serif big rise">An idea doesn’t arrive with a medium attached.</p>
+ <div class="mf-grid">
+  <p class="rise">A café needs a film. A startup needs a site. A festival needs both, and a way to be remembered.</p>
+  <p class="rise">So we start with the idea, then pick the medium.</p>
+  <p class="rise">Film, digital, design, commerce, strategy, events: one studio, no hand-offs.</p>
+  <p class="rise serif">Make it visible. Make it move.</p>
+ </div>
+</section>
+
+<!-- 03 SELECTED WORK — five different compositions. Interfaces ([data-ui]) are built in js/main.js. All concepts. -->
+<section class="dark work" id="work">
+ <header class="sec-head"><h2>Selected work</h2><p class="mono">Concept projects. No client work shown.</p></header>
+ <article class="p p1" data-project="cafe"><button class="open" aria-label="Open case study: Slow Pour">
+  <div class="trip"><div class="frame pt" data-video="cafe-barista"></div><div class="frame pt" data-video="cafe-espresso"></div><div class="frame pt" data-video="cafe-detail"></div></div>
+  <div class="cap"><span class="mono">Concept / Brand film</span><h3>Slow Pour</h3></div></button></article>
+ <article class="p p2" data-project="fitness"><button class="open" aria-label="Open case study: Reps">
+  <div class="frame f45" data-video="fitness" data-pos="62% 50%"></div>
+  <div class="cap"><span class="mono">Concept / Digital campaign</span><h3>Reps</h3></div></button></article>
+ <article class="p p3" data-project="festival"><button class="open" aria-label="Open case study: Open Air">
+  <div class="frame wide" data-video="festival"></div>
+  <div class="cap"><span class="mono">Concept / Event experience</span><h3>Open Air</h3></div></button></article>
+ <article class="p p4" data-project="startup"><button class="open" aria-label="Open case study: Launchpad">
+  <div class="bf"><div class="bf-bar"><i></i><i></i><i></i><span>launchpad.example</span></div><div class="sc" data-ui="lp"></div></div>
+  <div class="cap"><span class="mono">Concept / Brand + web</span><h3>Launchpad</h3></div></button></article>
+ <article class="p p5" data-project="retail"><button class="open" aria-label="Open case study: Threadline">
+  <div class="bf"><div class="bf-bar"><i></i><i></i><i></i><span>threadline.example</span></div><div class="sc" data-ui="tl"></div></div>
+  <div class="phone" data-ui="phone"></div>
+  <div class="cap"><span class="mono">Concept / E-commerce</span><h3>Threadline</h3></div></button></article>
+</section>
+
+<!-- 04 CAPABILITIES -->
+<section class="light caps" id="capabilities">
+ <header class="sec-head"><h2>Capabilities</h2></header>
+ <ul>
+  <li tabindex="0"><h3>Film</h3><p>Commercials, reels, branded content, event films and production.</p></li>
+  <li tabindex="0"><h3>Digital</h3><p>Websites, social platforms, digital experiences and content systems.</p></li>
+  <li tabindex="0"><h3>Design</h3><p>Visual identity, campaigns, social design and creative direction.</p></li>
+  <li tabindex="0"><h3>Commerce</h3><p>E-commerce setup, digital storefronts and conversion-focused experiences.</p></li>
+  <li tabindex="0"><h3>Strategy</h3><p>Digital consulting, campaign planning, content strategy and audience development.</p></li>
+  <li tabindex="0"><h3>Events</h3><p>Event coverage, promotional content and digital event experiences.</p></li>
+ </ul>
+</section>
+
+<!-- 05 STUDIO -->
+<section class="dark studio" id="studio">
+ <h2>Three disciplines.<br>One studio.</h2>
+ <div class="venn"><div><span>Digital filmmaking</span></div><div><span>Computer applications</span></div><div><span>Commerce</span></div></div>
+ <p class="studio-p">Production, technology and business thinking sit in the same room, so an idea doesn’t get lost between departments.</p>
+</section>
+
+<!-- 06 PROCESS -->
+<section class="light process" id="process">
+ <ol>
+  <li><h3>Discover</h3><p>Understand the problem.</p></li>
+<li><h3>Define</h3><p>Find the idea and the medium.</p></li>
+<li><h3>Make</h3><p>Produce the creative solution.</p></li>
+<li><h3>Move</h3><p>Launch, distribute, iterate.</p></li>
+ </ol>
+</section>
+</main>
+
+<!-- 07 CONTACT / FOOTER -->
+<footer class="dark foot" id="contact">
+ <p class="serif big">Have an idea?<br>Let’s make it move.</p>
+ <a class="mag cta" href="mailto:hello@nomora.studio">hello@nomora.studio</a><!-- TODO: replace email -->
+ <div class="foot-grid"><nav aria-label="Footer"><a href="#work">Work</a><a href="#capabilities">Capabilities</a><a href="#studio">Studio</a></nav>
+ <nav aria-label="Social"><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">Vimeo</a></nav><!-- TODO: social URLs -->
+ <p class="mono">For cafés, gyms, boutiques, student startups, clubs, creators and small businesses.</p></div>
+ <div class="wordmark foot-mark" aria-hidden="true">NOMORA.</div>
+ <p class="mono sub"><span>Ideas without boundaries.</span><span>© 2026 NOMORA</span></p>
+</footer>
+
+<!-- CASE STUDY OVERLAY -->
+<section class="cs" id="cs" role="dialog" aria-modal="true" aria-label="Case study" hidden>
+  <button class="cs-back mono">Back</button>
+ <div class="cs-head"><p class="mono" id="cs-type"></p><h2 id="cs-title"></h2></div>
+ <div class="cs-stage" id="cs-stage"></div>
+ <div class="cs-body"><p class="serif big" id="cs-concept"></p><p id="cs-desc"></p><p class="mono" id="cs-caps"></p><button class="cs-next mono" id="cs-next"></button></div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/main.js"></script>
+</body></html>
